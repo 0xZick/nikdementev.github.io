@@ -1,0 +1,59 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.img{
+  width: 82px;
+  height: 82px;
+  background: url('./avatar.jpg') no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+.smm{
+  display: flex;
+  margin-top: 40px;
+  width: 131px;
+  justify-content: space-between;
+}
+.smm a{
+  width: 35px;
+  height: 35px;
+}
+.icon{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.icon::before{
+  content: ' ';
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+.icon[src="/static/media/vk.svg"]::before{
+  content: ' Vk';
+  background: #4d76a1;
+}
+.icon[src="/static/media/behance.svg"]::before{
+  content: 'Be';
+  background: #4176fa;
+}
+.icon[src="/static/media/github-logo.svg"]::before{
+  content: 'Git';
+  background: #000000;
+}
+.name{
+  color: #73909d;
+  font-size: 18px;
+  margin-top: 20px;
+}

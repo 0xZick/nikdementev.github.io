@@ -1,0 +1,146 @@
+.block{
+  width: 375px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonNew{
+  width: 125px;
+  background: #ff606c;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 24px;
+  align-self: flex-start;
+  margin-left: -10px;
+}
+.logo{
+  height: 25px;
+  margin-top: 32px;
+}
+.name{
+  font-size: 20px;
+  color: #344750;
+  margin-top: 22px;
+}
+.discription{
+  font-size: 14px;
+  color: #8ca4af;
+}
+.line{
+  width: 25px;
+  height: 1px;
+  background: #8ca4af;
+  margin-top: 25px;
+}
+.text{
+  font-size: 14px;
+  color: #344750;
+  width: 320px;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 22px;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e7e7e7;
+  width: 100%;
+  margin-top: 19px;
+  align-self: flex-start;
+}
+.button button:focus{
+  outline: 1px solid #0771f0;
+}
+
+.like{
+  width: 49.9%;
+  padding: 25px 0px;
+  padding-left: 35px;
+  background: none;
+  border: none;
+  color: #8ca4af;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s ease;
+}
+.like::after{
+  content: ' ';
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 38px;
+  background: url('./heart.svg') no-repeat;
+  background-size: contain;
+  transition: all 0.4s ease;
+}
+.like:hover:after{
+  background: url('./favorite_color.svg') no-repeat;
+  background-size: contain;
+  transition: all 0.4s ease;
+}
+.like:hover{
+  background: #ff606c;
+  color: #fff;
+  border: none;
+}
+.more{
+  width: 49.9%;
+  padding: 25px 0px;
+  text-align: center;
+  padding-left: 18px;
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: #8ca4af;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  position: relative;
+}
+.more::after{
+  content: ' ';
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 38px;
+  background: url('./more.svg') no-repeat;
+  background-size: contain;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+.more:hover:after{
+  background: url('./more_color.svg') no-repeat;
+  background-size: contain;
+  transition: all 0.4s ease;
+}
+.more:hover{
+  color: #fff;
+  background: #006DF0;
+}
+.lineHorizontal{
+  width: 1px;
+  height: inherit;
+  background: #e7e7e7;
+}

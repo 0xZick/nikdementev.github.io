@@ -1,0 +1,28 @@
+.about{
+  width: auto;
+  background: #f3f5f7;
+  display: flex;
+  margin-left: 90px;
+  flex-direction: column;
+}
+.blocks{
+  border-top: 1px solid #e7e7e7;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  min-width: 850px;
+}
+.text{
+  font-size: 16px;
+  line-height: 24px;
+  color: #344750;
+}
+.text a{
+  text-decoration: none;
+  color: #55acee;
+}
+.text a:focus{
+  outline: none;
+  border-bottom: 1px solid #55acee;
+}

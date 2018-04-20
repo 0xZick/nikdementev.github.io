@@ -1,0 +1,21 @@
+.footer{
+  margin-top: 240px;
+  margin-left: 32px;
+  align-self: left;
+}
+.line{
+  width: 42px;
+  height: 1px;
+  background: #cfd8dc;
+}
+.text{
+  margin-top: 24px;
+  color: #37474f;
+  font-size: 14px;
+}
+.link{
+  color: #42a5f5;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}

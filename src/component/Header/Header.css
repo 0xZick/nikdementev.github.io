@@ -1,0 +1,35 @@
+.header{
+  margin-top: 60px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.h1{
+  font-size: 24px;
+  color: #344750;
+  font-weight: normal;
+}
+.filter{
+  margin-right: 90px;
+  font-size: 14px;
+  color: #344750;
+  border: none;
+  background: none;
+}
+.filter:focus{
+  outline: none;
+}
+.option{
+  color: #2684ff;
+  padding: 10px;
+}
+.option:hover{
+  background: #2684ff;
+}
+.discription{
+  margin-top: 75px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #344750;
+}

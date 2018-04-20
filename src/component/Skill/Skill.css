@@ -1,0 +1,14 @@
+.about{
+  width: auto;
+  background: #f3f5f7;
+  display: flex;
+  margin-left: 90px;
+  flex-direction: column;
+}
+.blocks{
+  border-top: 1px solid #e7e7e7;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  min-width: 850px;
+}
