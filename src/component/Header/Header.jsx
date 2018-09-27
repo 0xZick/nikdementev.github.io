@@ -1,26 +1,28 @@
 import React from 'react';
 
 import styles from './Header.css'
+import CSSModules from 'react-css-modules'
 
-export default function Header(props)  {
+
+function Header({ title, select, onFilter, discription })  {
     return (
-      <header className={styles.header}>
-        <div className={styles.row}>
-          <h2 className={styles.h1}>{props.title}</h2>
-          { props.select ?           
-          <select 
-              tabIndex="0" 
-              className={styles.filter} 
-              onChange={ event => props.onFilter(event.target.value) }
+      <header styleName="header">
+        <div styleName="row">
+          <h2 styleName="h1">{title}</h2>
+          { select && (
+            <select
+              tabIndex="0"
+              styleName="filter"
+              onChange={ event => onFilter(event.target.value) }
             >
-            <option value="NEW" >Новые</option>
-            <option value="ALL" >Популярные</option>
-          </select>
-        :
-            ''
-        }
+              <option value="NEW" >New</option>
+              <option value="ALL" >Popular</option>
+            </select>
+          )}
         </div>
-        <p className={styles.discription}> {props.discription} </p>
+        <p styleName="discription"> {discription} </p>
       </header>
     );
   }
+
+export default CSSModules(Header, styles)

@@ -3,46 +3,64 @@
             {
                 "link": "/portfolio",
                 "img": "<use href='#my-port-icon' />",
-                "label": "Портфолио",
+                "label": "Еxperience",
                 "id": 1
             },
             {
                 "link": "/about",
                 "img": "<use href='#my-info-icon' />",
-                "label": "Обо мне",
+                "label": "About me",
                 "id": 2
             },
             {
                 "link": "/skill",
                 "img": "<use href='#my-skill-icon' />",
-                "label": "Навыки",
+                "label": "Skill",
                 "id": 3
             },
             {
                 "link": "/contact",
                 "img": "<use href='#my-cont-icon' />",
-                "label": "Контакты",
+                "label": "Contact",
                 "id": 4
             }
     ],
     "blocks": [
         {
-            "name": "Компания Eastec",
+            "name": "Swap Online",
             "url": "/static/media/logo.png",
-            "alt": "Логотип Истэк",
-            "discription": "Интернет магазин, интеграция 1С",
-            "text": "Бэнчмаркинг сайтов конкурентов, создание: макета, дизайна, анимаций в After Effects. Проверка действий пользователя в inVision, создание и настройка VDS сервера, установка верстки на CMS, интеграция с 1С.",
-            "link": "https://eastec.ru/",
+            "alt": "logo swap.online",
+            "discription": "Crypto wallet with atomic swap",
+            "text": "React, Redux, Blockchain, Bitcoin, Ethereum",
+            "link": "https://testnet.swap.online/",
+            "id": 1
+        },
+        {
+            "name": "More Just Media",
+            "url": "/static/media/logo.png",
+            "alt": "lgo more just media",
+            "discription": "News portal",
+            "text": "React, Redux, REST API",
+            "link": "https://morejust.media",
             "id": 2
         },
         {
-            "name": "Сайт Компании CB Wallet",
+            "name": "Testnet Exchange",
+            "url": "/static/media/logo.png",
+            "alt": "logo testnet exchange",
+            "discription": "Exchange",
+            "text": "React, Redux, REST API",
+            "link": "https://testnet.exchange",
+            "id": 3
+        },
+        {
+            "name": "CB Wallet",
             "url": "/static/media/logo2.png",
             "alt": "Логотип CB Wallet",
             "discription": "Landing page",
-            "text": "Дизайн, верстка, настройка AJAX.",
+            "text": "HTML, CSS, Gulp, Jquery",
             "link": "https://walletcb.github.io/",
-            "id": 1
+            "id": 5
         }
     ]
 }

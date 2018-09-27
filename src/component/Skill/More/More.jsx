@@ -25,7 +25,7 @@ class More extends Component {
 		var react = new Image();
 		react.src = 'https://i.imgur.com/tlqvThh.png';
 
-		
+
 		var xb = 0, yb = 0, dxb = 3,dyb = 4;
 		var xg = 0, yg = 0, dxg = 4,dyg = 4;
 		var xn = 0, yn = 0, dxn = 6,dyn = 4;
@@ -89,37 +89,7 @@ class More extends Component {
 			</div>
 		);
 	}
-
 }
+
+
 export default More;
-
-// componentDidMount() {
-// 	const ctx = this.canvas.getContext('2d')
-
-// 	this.canvas.width = '850'
-// 	this.canvas.height = '500'
-
-// 	const width = this.canvas.width
-// 	const height = this.canvas.height
-	
-// 	var babel = new Image();
-// 	babel.src = this.props.url
-
-// 	var x = this.props.x,
-// 		y = this.props.y,
-// 		dx = this.props.dx,
-// 		dy = this.props.dy;
-
-// 	function animate(){
-// 		requestAnimationFrame(animate);
-// 		ctx.clearRect(0,0, width, height);
-
-// 		ctx.drawImage(babel, 0 + x ,0 + y);
-// 		if( x + babel.width > width || x < 0) { dx = -dx; }
-// 		if( y + babel.height > height || y < 0) { dy = -dy; }
-// 		x += dx;
-// 		y += dy;
-
-// 	}
-// 	animate();
-// }

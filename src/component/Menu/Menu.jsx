@@ -1,19 +1,21 @@
-import React from 'react';
-import styles from './Menu.css';
+import React from 'react'
+
+import styles from './Menu.css'
+import CSSModules from 'react-css-modules'
 
 import MenuHeader from './Menu-Header/MenuHeader.jsx'
 import MenuList from './Menu-List/MenuList.jsx'
 import MenuFooter from './Menu-Footer/MenuFooter.jsx'
 
-function Menu(props){
+function Menu({ link }){
     return (
-      <aside className={styles.menu}>
+      <aside styleName="menu">
         <MenuHeader />
-        <MenuList  items={props.link} />
+        <MenuList  items={link} />
         <MenuFooter />
       </aside>
     );
 
 }
 
-export default Menu;
+export default CSSModules(Menu, styles)

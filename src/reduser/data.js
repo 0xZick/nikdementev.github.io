@@ -13,10 +13,10 @@ export default function reducer(state = [], action) {
 export function getFilteredBlocks(state, filter) {
     switch (filter) {
         case 'ALL':
-            return state;
-        
+            return state.concat().sort((a, b) => b.id - a.id)
+
         case 'NEW':
-            return state.concat().reverse();
+            return state.concat().sort((a, b) => a.id - b.id)
 
         default:
             return state;

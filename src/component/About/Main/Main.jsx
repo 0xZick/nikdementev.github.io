@@ -1,15 +1,21 @@
-import React from 'react';
-import styles from './Main.css'
+import React from 'react'
 
-export default function About(){
+import styles from './Main.css'
+import CSSModules from 'react-css-modules'
+
+
+function Main(){
   return (
-    <div className={styles.text}>
-    Меня зовут Никита, 21 год, учился в ВГУЭС на факультете
-    прикладная информатика, кафедра информационных
-    технологий и систем, проживаю в г. Владивосток, но не
-    привязан к месту жительства. 3 года занимаюсь frontend
-    разработкой, занимаюсь изучением общепринях паттернов
-    программирования, так же  обучением HTML, CSS.
+    <div styleName="text">
+      My name Nikita, 21 years, ending VVSU
+      at the Faculty Applied Informatics,
+      Information Department technologies and systems,
+      i live, in Moscow. Have been working for 4 years,
+      now working as a Lead Developer in swap.online,
+      also study common of patterns
+      programming and learning HTML, CSS.
     </div>
   );
 }
+
+export default CSSModules(Main, styles)

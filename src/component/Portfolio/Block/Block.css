@@ -2,6 +2,7 @@
   width: 375px;
   background: #fff;
   display: flex;
+  margin-bottom: 40px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -12,6 +13,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .buttonNew{
   width: 125px;
   background: #ff606c;
@@ -124,7 +126,7 @@
   height: 18px;
   position: absolute;
   top: calc(50% - 9px);
-  left: 38px;
+  left: 36px;
   background: url('./more.svg') no-repeat;
   background-size: contain;
   transition: all 0.4s ease;

@@ -14,17 +14,17 @@ class App extends Component {
   render() {
 
     return (
-	<Router >
+      <Router >
         <div className={ styles.app }>
-          	<MenuContainer />
-            <Switch>
-				<Route path="/portfolio" component={PortfolioContainer}/>
-				<Route path="/Skill" component={ Skill }/>
-				<Route path="/about" component={ About }/>
-				<Route path="/contact" component={ Contact }/>
-            </Switch>
+          <MenuContainer />
+          <Switch>
+            <Route path="/portfolio" component={PortfolioContainer}/>
+            <Route path="/Skill" component={ Skill }/>
+            <Route path="/about" component={ About }/>
+            <Route path="/contact" component={ Contact }/>
+          </Switch>
         </div>
-	</Router>
+      </Router>
     );
   }
 }

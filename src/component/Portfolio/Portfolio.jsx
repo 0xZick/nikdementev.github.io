@@ -1,27 +1,32 @@
-import React from 'react';
+import React from 'react'
+
 import styles from './Portfolio.css'
+import CSSModules from 'react-css-modules'
 
 import Block from './Block/Block.jsx'
-import Header from '../Header/Header';
+import Header from '../Header/Header'
 
-function Portfolio(props){
+
+
+function Portfolio({ setFilter, blocks }){
     return (
-		<article className={styles.portfolio} >
-		<Header 
-			onFilter={ props.setFilter } 
-			title="Портфолио" 
-			discription="Мои последние проекты"
-			select={true}
+		<article styleName="portfolio" >
+		<Header
+			onFilter={setFilter}
+			title="Expirience"
+			discription="My last project"
+			select
 		/>
-			<div className={styles.blocks}>
-			{ props.blocks.map((item, index) => 
+			<div styleName="blocks">
+			{ blocks.map(item =>
 				<Block
-					key={ item.id }
-					name={ item.name }
-					url={ item.url }
-					alt={ item.alt }
-					discription={ item.discription }
-					text={ item.text }
+					key={item.id}
+					id={item.id}
+					name={item.name}
+					url={item.url}
+					alt={item.alt}
+					discription={item.discription}
+					text={item.text}
 					link={item.link}
 				/>)}
 			</div>
@@ -29,5 +34,5 @@ function Portfolio(props){
     );
 }
 
-export default Portfolio
+export default CSSModules(Portfolio, styles)
 

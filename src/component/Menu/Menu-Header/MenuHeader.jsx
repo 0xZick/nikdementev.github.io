@@ -1,24 +1,35 @@
-import React from 'react';
-import styles from './MenuHeader.css'
+import React from 'react'
 
-function MenuHeader(){
+import styles from './MenuHeader.css'
+import CSSModules from 'react-css-modules'
+
+import vk from './images/vk.svg'
+import github from './images/github.svg'
+import behance from './images/behance.svg'
+
+const nav = [
+  {link: 'https://vk.com/puffingcheeks', image: vk, alt: 'Vkontakte'},
+  {link: 'https://www.behance.net/nikiStyle', image: github, alt: 'Behance: '},
+  {link: 'https://github.com/nikdementev', image: behance, alt: 'Github'},
+]
+
+
+function MenuHeader() {
   return (
-    <header className={styles.header}>
-      <div className={styles.img} />
-      <div className={styles.name}>Никита Дементьев</div>
-      <div className={styles.smm}>
-        <a href="https://vk.com/puffingcheeks" target="_blank">
-          <img className={styles.icon} src="/static/media/vk.svg" alt="Vkontakte" rel="details"/>
-        </a>
-        <a href="https://www.behance.net/nikiStyle" target="_blank">
-          <img className={styles.icon} src="/static/media/behance.svg" alt="Behance" rel="details"/>
-        </a>
-        <a href="https://github.com/puffingCheeks" target="_blank">
-          <img className={styles.icon} src="/static/media/github-logo.svg" alt="Github" rel="details"/>
-        </a>
+    <header styleName="header">
+      <div styleName="img" />
+      <div styleName="name">Nikita Dementev</div>
+      <div styleName="smm">
+        {
+          nav.map(n =>
+            <a href={n.link} target="_blank" rel="noreferrer noopener">
+              <img styleName="icon" src={n.image} alt={n.alt} rel="details"/>
+            </a>
+          )
+        }
       </div>
     </header>
   );
 }
 
-export default MenuHeader;
+export default CSSModules(MenuHeader, styles)

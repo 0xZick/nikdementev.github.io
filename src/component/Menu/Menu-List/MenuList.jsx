@@ -1,34 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 import styles from './MenuList.css'
+import CSSModules from 'react-css-modules'
 
 
-
-function MenuList(props){
-
+function MenuList({ items }) {
   return (
-    <nav className={styles.task}>
-      <ul className={styles.ul}>
-      { props.items.map((item, index) => {
-      return(
-          <li className={styles.list}  key = { index }>
-            <Link to={ item.link }>
-              <svg className={ styles.icon + ' ' +  styles.info  } >
-                { item.img }
-              </svg>
-              <div className={ styles.text }>
-              { item.label }
-              </div>
+    <nav styleName="task">
+      <ul styleName="ul">
+      {
+        items.map((item, index) => (
+          <li styleName="list"  key={index}>
+            <Link to={item.link}>
+              <svg styleName="icon info" >{item.img}</svg>
+              <div styleName="text">{item.label}</div>
             </Link>
           </li>
-      );
-     }) }
+        ))
+      }
       </ul>
     </nav>
   );
-
 }
 
-export default MenuList;
+export default CSSModules(MenuList, styles, { allowMultiple: true })
 

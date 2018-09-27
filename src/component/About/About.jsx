@@ -1,21 +1,26 @@
-import React from 'react';
-import styles from './About.css';
+import React from 'react'
 
-import Header from '../Header/Header';
-import Main from './Main/Main.jsx';
-import More from './More/More.jsx';
+import styles from './About.css'
+import CSSModules from 'react-css-modules'
 
-export default function About(){
+import Header from '../Header/Header'
+import Main from './Main/Main.jsx'
+import More from './More/More.jsx'
+
+
+function About() {
   return (
-    <article className={styles.about}>
-      <Header title="Обо мне" discription="Не много обо мне"/>
-      <div className={styles.blocks}>
+    <article styleName="about">
+      <Header title="About me" discription="A few details about myself"/>
+      <div styleName="blocks">
         <Main />
-        <div className={styles.col}>
-          <More title="Мои цели" item="Написать статью" />
-          <More title="Мои проекты" item="cbwallet.io"  />
+        <div styleName="col">
+          <More title="My objectives" item={['Lightning network', 'EOS Smart Contract']} />
+          <More title="My project" item={['testnet.exchange', 'morejust.media', 'cbwallet.io']}  />
         </div>
       </div>
     </article>
   );
 }
+
+export default CSSModules(About, styles)

@@ -1,14 +1,22 @@
 import React from 'react';
-import styles from './More.css'
 
-export default function More(props){
+import styles from './More.css'
+import CSSModules from 'react-css-modules'
+
+
+function More({ item, title }){
 
   return (
-    <div className={styles.text}>
-      { props.title }
-      <div className={ styles.disc }>
-        <div className={styles.item}> { props.item } </div>
+    <div styleName="text">
+      {title}
+      <div styleName="disc">
+        {
+          item.map(text =>
+            <div styleName="item">{text}</div>)
+        }
       </div>
     </div>
   );
 }
+
+export default CSSModules(More, styles)
