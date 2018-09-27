@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e58526e0-7f5d-48f3-9a0a-adc546180428" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/About/Main/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About/Main/Main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/About/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/About/More/More.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About/More/More.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/About/More/More.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/About/More/More.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Contact/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/Menu-Footer/MenuFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/Menu-Footer/MenuFooter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/Menu-Header/MenuHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/Menu-Header/MenuHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/Menu-List/MenuList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/Menu-List/MenuList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Portfolio/Block/Block.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portfolio/Block/Block.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Portfolio/Block/Block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portfolio/Block/Block.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Portfolio/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portfolio/Portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Skill/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Skill/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Skill/More/More.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Skill/More/More.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Skill/Skill.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Skill/Skill.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reduser/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reduser/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reduser/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reduser/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/state.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/state.json" afterDir="false" />
-    </list>
+    <list default="true" id="e58526e0-7f5d-48f3-9a0a-adc546180428" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -40,6 +15,7 @@
     <session id="-1060293823">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -89,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Portfolio/Portfolio.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="80">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -226,23 +202,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537998797127</updated>
-      <workItem from="1537998798441" duration="6731000" />
+      <workItem from="1537998798441" duration="6868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6731000" />
+    <option name="totallyTimeSpent" value="6868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32977587" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -530,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Portfolio/Portfolio.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="80">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
