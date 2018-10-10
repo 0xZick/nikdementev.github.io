@@ -8,9 +8,9 @@ import github from './images/github.svg'
 import behance from './images/behance.svg'
 
 const nav = [
-  {link: 'https://vk.com/puffingcheeks', image: vk, alt: 'Vkontakte'},
-  {link: 'https://www.behance.net/nikiStyle', image: github, alt: 'Behance: '},
-  {link: 'https://github.com/nikdementev', image: behance, alt: 'Github'},
+  {link: 'https://vk.com/nikdementev', image: vk, alt: 'Vkontakte'},
+  {link: 'https://www.behance.net/nikiStyle', image: behance, alt: 'Behance: '},
+  {link: 'https://github.com/nikdementev', image: github, alt: 'Github'},
 ]
 
 
