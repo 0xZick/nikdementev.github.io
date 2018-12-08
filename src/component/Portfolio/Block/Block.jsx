@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Block.css'
 
-function Block({ url, alt, name, discription, text, link, id }){
+function Block({ url, alt, name, description, text, link, id }){
   return (
     <div className={styles.block}>
       <div className={styles.main}>
@@ -10,7 +10,7 @@ function Block({ url, alt, name, discription, text, link, id }){
           <img className={styles.logo} src={url} alt={alt}/>
         </a>
         <div className={styles.name}>{name}</div>
-        <div className={styles.discription}>{discription}</div>
+        <div className={styles.description}>{description}</div>
         <div className={styles.line} />
         <div className={styles.text}>{text}</div>
       </div>

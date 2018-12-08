@@ -3,7 +3,7 @@
             {
                 "link": "/",
                 "img": "<use href='#my-port-icon' />",
-                "label": "Еxperience",
+                "label": "Experience",
                 "id": 1
             },
             {
@@ -30,37 +30,55 @@
             "name": "Swap Online",
             "url": "/static/media/swap.png",
             "alt": "logo swap.online",
-            "discription": "Crypto wallet with atomic swap",
+            "description": "Crypto wallet with atomic swap",
             "text": "React, Redux, Blockchain, Bitcoin, Ethereum",
             "link": "https://testnet.swap.online/",
             "id": 1
         },
         {
+            "name": "Flight Wallet",
+            "url": "/static/media/flightwallet.png",
+            "alt": "logo flight wallet",
+            "description": "Offline crypto wallet",
+            "text": "React, Redux, Bitcoin, REST API",
+            "link": "https://flightwallet.org/",
+            "id": 2
+        },
+        {
+            "name": "Dag technologies",
+            "url": "/static/media/dagtec.svg",
+            "alt": "logo dag technologies",
+            "description": "ICO dashboard",
+            "text": "React, Relay, Node, GraphQL",
+            "link": "https://dagtech.co/",
+            "id": 3
+        },
+        {
             "name": "More Just Media",
             "url": "/static/media/mjm.png",
             "alt": "lgo more just media",
-            "discription": "News portal",
+            "description": "News portal",
             "text": "React, Redux, REST API",
             "link": "https://morejust.media",
-            "id": 2
+            "id": 4
         },
         {
             "name": "Testnet Exchange",
             "url": "/static/media/testnet.png",
             "alt": "logo testnet exchange",
-            "discription": "Exchange",
+            "description": "Crypto currencies exchange",
             "text": "React, Redux, REST API",
             "link": "https://testnet.exchange",
-            "id": 3
+            "id": 5
         },
         {
             "name": "CB Wallet",
             "url": "/static/media/wallet.png",
             "alt": "Логотип CB Wallet",
-            "discription": "Landing page",
+            "description": "Landing page",
             "text": "HTML, CSS, Gulp, Jquery",
             "link": "https://walletcb.github.io/",
-            "id": 5
+            "id": 6
         }
     ]
 }

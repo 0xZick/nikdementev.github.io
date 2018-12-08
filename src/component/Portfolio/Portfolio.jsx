@@ -24,7 +24,7 @@ function Portfolio({ setFilter, blocks }){
 					name={item.name}
 					url={item.url}
 					alt={item.alt}
-					discription={item.discription}
+          description={item.description}
 					text={item.text}
 					link={item.link}
 				/>)}
