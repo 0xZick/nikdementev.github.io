@@ -28,7 +28,7 @@
     "blocks": [
         {
             "name": "Swap Online",
-            "url": "/static/media/logo.png",
+            "url": "/static/media/swap.png",
             "alt": "logo swap.online",
             "discription": "Crypto wallet with atomic swap",
             "text": "React, Redux, Blockchain, Bitcoin, Ethereum",
@@ -37,7 +37,7 @@
         },
         {
             "name": "More Just Media",
-            "url": "/static/media/logo.png",
+            "url": "/static/media/mjm.png",
             "alt": "lgo more just media",
             "discription": "News portal",
             "text": "React, Redux, REST API",
@@ -46,7 +46,7 @@
         },
         {
             "name": "Testnet Exchange",
-            "url": "/static/media/logo.png",
+            "url": "/static/media/testnet.png",
             "alt": "logo testnet exchange",
             "discription": "Exchange",
             "text": "React, Redux, REST API",
