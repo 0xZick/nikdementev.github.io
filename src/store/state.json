@@ -46,7 +46,7 @@
         },
         {
             "name": "Dag technologies",
-            "url": "/static/media/dagtec.svg",
+            "url": "/static/media/dagtec.png",
             "alt": "logo dag technologies",
             "description": "ICO dashboard",
             "text": "React, Relay, Node, GraphQL",
