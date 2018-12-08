@@ -29,10 +29,11 @@
   margin-top: 24px;
   align-self: flex-start;
   margin-left: -10px;
+  position: absolute;
 }
 .logo{
-  height: 25px;
-  margin-top: 32px;
+  height: 55px;
+  margin-top: 20px;
 }
 .name{
   font-size: 20px;

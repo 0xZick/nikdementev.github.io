@@ -7,7 +7,6 @@ import Block from './Block/Block.jsx'
 import Header from '../Header/Header'
 
 
-
 function Portfolio({ setFilter, blocks }){
     return (
 		<article styleName="portfolio" >

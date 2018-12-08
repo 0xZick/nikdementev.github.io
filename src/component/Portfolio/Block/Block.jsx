@@ -6,7 +6,9 @@ function Block({ url, alt, name, discription, text, link, id }){
     <div className={styles.block}>
       <div className={styles.main}>
         { id % 2 === 0 && <div className={styles.buttonNew}>Новинка</div> }
-        <img className={styles.logo} src={url} alt={alt}/>
+        <a href={link} target="_blank" rel="contacts" >
+          <img className={styles.logo} src={url} alt={alt}/>
+        </a>
         <div className={styles.name}>{name}</div>
         <div className={styles.discription}>{discription}</div>
         <div className={styles.line} />

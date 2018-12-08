@@ -55,7 +55,7 @@
         },
         {
             "name": "CB Wallet",
-            "url": "/static/media/logo2.png",
+            "url": "/static/media/wallet.png",
             "alt": "Логотип CB Wallet",
             "discription": "Landing page",
             "text": "HTML, CSS, Gulp, Jquery",
