@@ -18,7 +18,7 @@ class App extends Component {
         <div className={ styles.app }>
           <MenuContainer />
           <Switch>
-            <Route path="/portfolio" component={PortfolioContainer}/>
+            <Route exact path="/" component={PortfolioContainer}/>
             <Route path="/Skill" component={ Skill }/>
             <Route path="/about" component={ About }/>
             <Route path="/contact" component={ Contact }/>

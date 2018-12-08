@@ -1,7 +1,7 @@
 {
     "link": [
             {
-                "link": "/portfolio",
+                "link": "/",
                 "img": "<use href='#my-port-icon' />",
                 "label": "Еxperience",
                 "id": 1
