@@ -27,6 +27,15 @@
     ],
     "blocks": [
         {
+            "name": "Next",
+            "url": "/static/media/logo.png",
+            "alt": "logo insentry.io",
+            "description": "System video analytics",
+            "text": "React, Redux, Worker, WebSocket, Reselect, DGD",
+            "link": "http://insentry.io/",
+            "id": 1
+        },
+        {
             "name": "Swap Online",
             "url": "/static/media/swap.png",
             "alt": "logo swap.online",

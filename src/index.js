@@ -9,7 +9,7 @@ import state from './store/state.json'
 import store from './store'
 import { getBlocks } from './actions'
 
-store.dispatch(getBlocks(state))
+store.dispatch(getBlocks(state));
 
 ReactDOM.render(
   <Provider store={store}>
